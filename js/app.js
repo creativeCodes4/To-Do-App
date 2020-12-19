@@ -36,7 +36,7 @@ const addToDo = (item) =>{
     const markBtn = document.createElement('i')
 
     // Adding Fontawesome to the element...
-    markBtn.classList.add('fa', 'fa-check-circle')
+    markBtn.classList.add('fa', 'fa-check-circle', 'fa-circle-o')
     markBtn.id = 'mark'
 
     // Appending buttons to the div...
